@@ -42,12 +42,13 @@ const ITvShows = [
     }
 ];
 
+const id = 2
 
 
-const getTvShows = (({ITvShows : Array¿}, id : number) =>{
-    ITvShows.forEach(element => {
-        console.log(element);
-    });
+const getTvShows = (({ITvShows : Array}) =>{
+    ITvShows.forEach(element =>{
+        console.log(element)
+    })
 });
 
-getTvShows({ITvShows}, 2);
+getTvShows({ITvShows});
